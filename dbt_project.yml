@@ -42,5 +42,6 @@ models:
       +materialized: table
 
     staging:
+      +transient: false
       +materialized: table
   
